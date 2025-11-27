@@ -15,4 +15,6 @@ fn main() {
         .expect("Failed to set activity");
 
     println!("Discord presence active");
+
+    loop {}
 }
