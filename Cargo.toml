@@ -1,0 +1,7 @@
+[package]
+name = "gila-performative-banget-guweh"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+discord-rpc-client = "0.4.0"
