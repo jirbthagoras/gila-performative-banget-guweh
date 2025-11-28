@@ -34,6 +34,11 @@ fn main() {
                     .set_activity(|act| {
                         act.details(format!("Reading {}", title))
                             .state(format!("By {}", author))
+                            .assets(|assets| {
+                                assets
+                                    .large_image("annoying_apple")
+                                    .large_text("I am performing rn")
+                            })
                     })
                     .expect("Failed to set activity");
 

@@ -10,4 +10,30 @@ It will also fetches Google Books API to get the details of book that user is cu
 
 ### Installation
 
-ToDo
+#### 1. Clone this repo
+
+```
+git clone https://github.com/jirbthagoras/gila-performative-banget-guweh.git
+
+```
+
+#### 2. Build this project
+
+```
+
+cargo build --release
+```
+
+#### 3. Make it globally executable
+
+```
+
+sudo mv target/release/rpc /usr/local/bin/rpc
+sudo chmod +x /usr/local/bin/rpc
+```
+
+#### 4. You're ready to go!
+
+```
+gpbg
+```
