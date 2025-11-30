@@ -14,6 +14,7 @@ It will also fetches Google Books API to get the details of book that user is cu
 
 ```
 git clone https://github.com/jirbthagoras/gila-performative-banget-guweh.git
+cd ./gila-performative-banget-guweh
 ```
 
 #### 2. Build this project
