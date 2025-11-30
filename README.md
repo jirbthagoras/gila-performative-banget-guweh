@@ -25,8 +25,8 @@ cargo build --release
 #### 3. Make it globally executable
 
 ```
-sudo mv target/release/rpc /usr/local/bin/rpc
-sudo chmod +x /usr/local/bin/rpc
+sudo mv target/release/rpc /usr/local/bin/gpbg
+sudo chmod +x /usr/local/bin/gpbg
 ```
 
 #### 4. You're ready to go!
